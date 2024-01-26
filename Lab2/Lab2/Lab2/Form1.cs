@@ -8,8 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using CRUDOperationsUsingDB;
 
-namespace Lab2
+namespace CRUDOperationsUsingDB
 {
     public partial class Form1 : Form
     {
@@ -28,6 +30,32 @@ namespace Lab2
             cmd.ExecuteNonQuery();
             MessageBox.Show("Successfully saved");
 
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            var con = Configuration.getInstance().getConnection();
+            SqlCommand cmd = new SqlCommand("Select * from Table_1", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+
+        }
+
+        private void Delbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var con = Configuration.getInstance().getConnection();
+            SqlCommand cmd = new SqlCommand("Select * from Table_1", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
     }
 }

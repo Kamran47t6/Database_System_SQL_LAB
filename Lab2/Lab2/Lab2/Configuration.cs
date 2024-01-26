@@ -4,11 +4,11 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace CRUD_Operations
+namespace CRUDOperationsUsingDB
 {
     class Configuration
     {
-        String ConnectionStr = @"Data Source=(local);Initial Catalog=Test;Integrated Security=True";
+        String ConnectionStr = @"Data Source=(local);Initial Catalog=TestDB_2022_CS_53;Integrated Security=True";
         SqlConnection con;
         private static Configuration _instance;
         public static Configuration getInstance()
@@ -28,9 +28,3 @@ namespace CRUD_Operations
         }
     }
 }
-
-
-
-
-
-

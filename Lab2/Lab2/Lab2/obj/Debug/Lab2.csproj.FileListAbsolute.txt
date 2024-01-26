@@ -8,3 +8,13 @@ C:\Users\Dulmi\Desktop\SQL\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cach
 C:\Users\Dulmi\Desktop\SQL\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 C:\Users\Dulmi\Desktop\SQL\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\Users\Dulmi\Desktop\SQL\Lab2\Lab2\obj\Debug\Lab2.pdb
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.exe
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\Lab2.pdb
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\obj\Debug\CRUDOperationsUsingDB.Form1.resources
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe.config
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\bin\Debug\Lab2.exe
+D:\Database System\Lab upload\Lab2\Lab2\Lab2\bin\Debug\Lab2.pdb
