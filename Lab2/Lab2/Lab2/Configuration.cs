@@ -8,7 +8,7 @@ namespace CRUDOperationsUsingDB
 {
     class Configuration
     {
-        String ConnectionStr = @"Data Source=(local);Initial Catalog=TestDB_2022_CS_53;Integrated Security=True";
+        String ConnectionStr = @"Data Source=DESKTOP-F2O4I5D;Initial Catalog=Lab2;Integrated Security=True";
         SqlConnection con;
         private static Configuration _instance;
         public static Configuration getInstance()
