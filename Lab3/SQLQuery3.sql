@@ -39,4 +39,34 @@ SELECT CompanyName FROM Suppliers WHERE HomePage IS NOT NULL;
 
 
 --Q9--
-SELECT ShipCountry FROM Orders WHERE OrderDate LIKE '1997%';
+SELECT ShipCountry FROM Orders WHERE OrderDate LIKE '%1997%';
+***
+
+
+--Q10--
+***
+SELECT CustomerID FROM Orders WHERE ShippedDate IS NULL;
+
+
+--Q11--
+SELECT SupplierID,CompanyName,City FROM Suppliers;
+***
+
+
+--Q12--
+SELECT COUNT(DISTINCT COUNTRY) AS DifferentCountries FROM Employees;
+SELECT FirstName + ' ' + LastName FROM Employees WhERE City='London';
+
+
+--Q13--
+SELECT ProductName FROM Products WHERE Discontinued='False';
+***
+
+
+--Q14--
+SELECT OrderID FROM [Order Details] WHERE Discount <=0.1;
+***
+
+
+--Q15--
+SELECT EmployeeID, FirstName,LastName,HomePhone FROM Employees WHERE Region IS NULL;  
