@@ -1,0 +1,6 @@
+Q1
+SELECT ProductName FROM Products WHERE UnitPrice > (SELECT AVG(UnitPrice) FROM Products);
+***
+
+
+Q2
