@@ -14,3 +14,4 @@ SELECT Country FROM Suppliers GROUP BY Country HAVING COUNT(Country)>=2;
 
 
 --Q4--
+SELECT Month(ShippedDate) AS [Month Number], COUNT(OrderID) AS [Order Delyaed] FROM Orders WHERE ShippedDate>RequiredDate Group BY Month(ShippedDate);
