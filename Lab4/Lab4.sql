@@ -40,3 +40,4 @@ SELECT OrderID, SUM(Discount) AS Discount, SUM(UnitPrice*Quantity) AS [Total Pri
 
 --Q9--
 SELECT ShipRegion, ShipCity, COUNT(OrderID) AS Orders FROM Orders WHERE YEAR(ShippedDate)='1997' AND ShipRegion IS NOT NULL  GROUP BY ShipRegion, ShipCity;
+***
