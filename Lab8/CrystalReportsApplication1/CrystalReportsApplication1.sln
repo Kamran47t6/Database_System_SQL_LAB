@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrystalReportsApplication1", "CrystalReportsApplication1\CrystalReportsApplication1.csproj", "{F6A42EC6-F9AE-4E6B-8A61-3676C2F9D2D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A42EC6-F9AE-4E6B-8A61-3676C2F9D2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A42EC6-F9AE-4E6B-8A61-3676C2F9D2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A42EC6-F9AE-4E6B-8A61-3676C2F9D2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A42EC6-F9AE-4E6B-8A61-3676C2F9D2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D98DE8CB-6F00-4CA7-8D13-CF26E1B6876E}
+	EndGlobalSection
+EndGlobal
